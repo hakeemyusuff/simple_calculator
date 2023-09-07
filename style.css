@@ -25,27 +25,32 @@ body {
 }
 
 .container {
-  background-color: black;
+  background: linear-gradient(191deg, #17181a -4.95%, #17181a 103.74%);
+  border-radius: 1rem;
   width: 22rem;
   border: 1px solid white;
   margin-inline: auto;
 }
 
 .display-screen {
+  display: grid;
+  align-items: center;
   text-align: right;
   padding: 0.5rem 0.5rem;
   font-size: 4rem;
   font-family: monospace;
-  height: 6rem;
+  height: 10rem;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 0.02rem;
+  gap: 0.1rem;
 }
 
 .button {
+  color: hsla(205, 100%, 57%, 1);
+  background-color: hsla(228, 7%, 20%, 1);
   padding: 1.75rem;
   font-size: 1.75rem;
   border-radius: 0.3rem;
@@ -71,8 +76,9 @@ body {
   margin-inline: auto;
   width: 5rem;
   height: 1rem;
+  background-color: hsla(0, 0%, 38%, 1);
 }
 
-.orange {
-  background-color: orange;
+.blue {
+  background-color: hsla(209, 100%, 35%, 1);
 }

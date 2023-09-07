@@ -6,21 +6,13 @@ let output;
 let operator;
 let string;
 
-function multiply(a, b) {
-  return a * b;
-}
+const multiply = (a, b) => a * b;
 
-function add(a, b) {
-  return a + b;
-}
+const add = (a, b) => a + b;
 
-function division(a, b) {
-  return a / b;
-}
+const division = (a, b) => a / b;
 
-function subtract(a, b) {
-  return a - b;
-}
+const subtract = (a, b) => a - b;
 
 buttons[0].addEventListener("click", () => {
   displayScreen.innerText = "0";
